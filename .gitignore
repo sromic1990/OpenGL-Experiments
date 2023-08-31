@@ -19,6 +19,7 @@
 *.map
 *.exp
 *.lib
+*.idb
 
 # Precompiled Headers
 *.gch
@@ -54,3 +55,17 @@ Desktop.ini
 # OpenGL specific ignores
 *.bmp
 *.tga
+
+# Debug folders and files
+Debug/
+Release/
+x64/
+x86/
+*.log
+*.tlog
+*.lastbuildstate
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
